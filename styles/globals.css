@@ -1,0 +1,78 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  line-height: 1.7;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../assets/fonts/AeonikTRIAL-Regular.otf");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Rubik";
+}
+
+#hero {
+  /* background: url(../assets/images/banner.jpg) no-repeat center; */
+  background-size: cover;
+  background-color: black;
+}
+
+#stats {
+  background: url(../assets/images/banner.jpg) no-repeat center;
+  background-size: cover;
+  background-color: black;
+}
+
+#features {
+  /* background: url(../assets/images/miningplace_img.jpg) no-repeat center; */
+  background-size: cover;
+  position: relative;
+}
+
+#about,
+#contact,
+#faq {
+  background: url(../assets/images/miningplace_img.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 139, 0.308);
+  /* opacity: 0; */
+  color: white;
+  /* Black background with opacity */
+  z-index: 2;
+  position: absolute;
+}
+
+#coin-animation {
+  /* background-color: rebeccapurple; */
+  animation: bounce 3s ease infinite;
+}
+@media (max-width: 980px) {
+  #coin-animation {
+    background-color: red;
+    display: none;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
