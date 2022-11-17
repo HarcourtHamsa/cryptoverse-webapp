@@ -1,9 +1,9 @@
 import axios from "axios";
 const environment = {
-  prod: "https://pure-ridge-64411.herokuapp.com/",
+  prod: "https://test-service-3tml.onrender.com/",
   dev: "http://localhost:8080",
 };
-axios.defaults.baseURL = environment.dev;
+axios.defaults.baseURL = environment.prod;
 // axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 
 let headers = {
