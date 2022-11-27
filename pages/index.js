@@ -243,7 +243,7 @@ function index() {
                   </Text>
                 </Heading>
                 <Text mt={10}>
-                  We at Cryptoverse offer you the fastest and the most legit way
+                  We at internotchtrade offer you the fastest and the most legit way
                   to successfully accumulate your BTC. Our sophisticated
                   technology does all the hard work, making sure that every
                   customer is 100% satisfied and that every mining goes through

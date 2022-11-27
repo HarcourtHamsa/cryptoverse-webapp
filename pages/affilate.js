@@ -70,10 +70,10 @@ function Affilate() {
               fontWeight="normal"
               mb={3}
             >
-              <Text>Cryptoverse Affiliate Network</Text>
+              <Text>internotchtrade Affiliate Network</Text>
             </Heading>
             <Text mt={10}>
-              The Cryptoverse platform welcomes you to become our partner and
+              The internotchtrade platform welcomes you to become our partner and
               offers you a share of our mining commission for attracting new
               miners to the platform.
             </Text>
@@ -86,7 +86,7 @@ function Affilate() {
                   Boost Your Affiliate Commissions by 100%
                 </Text>
                 <Text mt={2}>
-                  Cryptoverse Affiliate Program offers you lifetime commission
+                  internotchtrade Affiliate Program offers you lifetime commission
                   payouts and allows you to build a full-scale business with no
                   initial investments with a 4 level referral system.
                 </Text>
@@ -114,12 +114,12 @@ function Affilate() {
                   <ListItem>
                     <ListIcon as={FaCheckCircle} color="yellow.500" />
                     Post a blog describing the benefits of mining on
-                    Cryptoverse
+                    internotchtrade
                   </ListItem>
 
                   <ListItem>
                     <ListIcon as={FaCheckCircle} color="yellow.500" />
-                    Make a YouTube video and review Cryptoverse and its benefits
+                    Make a YouTube video and review internotchtrade and its benefits
                   </ListItem>
                 </List>
               </Box>

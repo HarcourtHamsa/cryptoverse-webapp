@@ -79,7 +79,7 @@ function Register() {
   return (
     <div style={{ backgroundColor: "rgb(24, 26, 32)" }}>
       <Head>
-        <title>Cryptoverse | Create Account</title>
+        <title>internotchtrade | Create Account</title>
       </Head>
 
       <Navbar />
@@ -249,7 +249,7 @@ function Register() {
               </Stack>
 
               <Text mt={3} color={"white"}>
-                Have a Cryptoverse account? <Link href="/login">Log in</Link>
+                Have a internotchtrade account? <Link href="/login">Log in</Link>
               </Text>
             </form>
           </Box>

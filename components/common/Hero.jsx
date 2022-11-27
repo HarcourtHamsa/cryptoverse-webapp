@@ -38,11 +38,11 @@ export default function Hero() {
             color="white"
           >
             <Text fontWeight={"normal"}>
-              Invest, trade, and explore endless possibilities with Cryptoverse
+              Invest, trade, and explore endless possibilities with internotchtrade
             </Text>
           </Heading>
           <Text color={"white"} lineHeight={1.8}>
-            Cryptoverse is a group of financial and cryptocurrency experts that
+            internotchtrade is a group of financial and cryptocurrency experts that
             invest in mining and cryptocurrency trading. We carefully examine
             the volatility of bitcoin and other crypto currencies, invest and
             make good profit from our investments.

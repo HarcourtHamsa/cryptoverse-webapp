@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
     <ChakraProvider>
       <AuthProvider>
         <Head>
-          <title>Cryptoverse</title>
+          <title>internotchtrade</title>
         </Head>
         <Component {...pageProps} />
 

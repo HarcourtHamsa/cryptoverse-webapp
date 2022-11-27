@@ -76,7 +76,7 @@ function Login() {
   return (
     <div style={{ backgroundColor: "rgb(24, 26, 32)" }}>
       <Head>
-        <title>Cryptoverse | Login </title>
+        <title>internotchtrade | Login </title>
       </Head>
 
       <ToastContainer />
@@ -104,7 +104,7 @@ function Login() {
                 textAlign="center"
                 color="yellow.500"
               >
-                Cryptoverse Login
+                internotchtrade Login
               </Text>
               <Stack mt={10} spacing={8}>
                 <Box>
@@ -174,7 +174,7 @@ function Login() {
               </Text>
 
               <Text mt={3} color="white">
-                New to Cryptoverse? <Link href="/register">Sign up</Link>
+                New to internotchtrade? <Link href="/register">Sign up</Link>
               </Text>
             </form>
           </Box>

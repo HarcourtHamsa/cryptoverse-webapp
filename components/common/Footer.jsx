@@ -41,7 +41,7 @@ export default function Footer() {
               <MdLocationOn size={20} /> 2717 Commervial Center Blvd Ste E200
             </Text>
             <Text fontSize={"sm"}>
-              © 2022 Cryptoverse. All rights reserved
+              © 2022 internotchtrade. All rights reserved
             </Text>
           </Stack>
           <Stack align={"flex-start"}>

@@ -96,7 +96,7 @@ function Contact() {
                       color="white"
                     >
                       <MdMail size={25} />
-                      <Link>support@cryptoverse.com</Link>
+                      <Link>support@internotchtrade.com</Link>
                     </Flex>
                   </Box>
                   <FormControl id="email">
