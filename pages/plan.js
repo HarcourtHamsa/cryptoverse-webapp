@@ -83,7 +83,7 @@ function Plan() {
             priceRange={"$250 - $500"}
             minimumAmount={"250"}
             dailyProfit={"3.00"}
-            duration={"2 Weeks"}
+            duration={"2 days"}
             minimumReturn={"670"}
           />
           <InvestmentPlanCard
@@ -91,7 +91,7 @@ function Plan() {
             priceRange={"$500 - $800"}
             minimumAmount={"500"}
             dailyProfit={"7.00"}
-            duration={"1 Month"}
+            duration={"2 days"}
             minimumReturn={"2,560"}
           />
           <InvestmentPlanCard
@@ -99,7 +99,7 @@ function Plan() {
             priceRange={"$8000 - $1,800"}
             minimumAmount={"8,000"}
             dailyProfit={"8.65.00"}
-            duration={"3 Months"}
+            duration={"2 days"}
             minimumReturn={"21,250"}
           />
           <InvestmentPlanCard
@@ -107,7 +107,7 @@ function Plan() {
             priceRange={"$1,800 - $5,000"}
             minimumAmount={"1,800"}
             dailyProfit={"9.78.00"}
-            duration={"3 Months"}
+            duration={"2 days"}
             minimumReturn={"37,210"}
           />
         </SimpleGrid>

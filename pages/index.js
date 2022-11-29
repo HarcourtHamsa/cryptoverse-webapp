@@ -228,7 +228,7 @@ function index() {
               color="black"
               zIndex={-1}
             >
-              <Box color={'white'}>
+              <Box color={"white"}>
                 <Heading
                   lineHeight={"110%"}
                   fontSize={{ base: "2xl", sm: "3xl", md: "3xl" }}
@@ -243,8 +243,8 @@ function index() {
                   </Text>
                 </Heading>
                 <Text mt={10}>
-                  We at internotchtrade offer you the fastest and the most legit way
-                  to successfully accumulate your BTC. Our sophisticated
+                  We at internotchtrade offer you the fastest and the most legit
+                  way to successfully accumulate your BTC. Our sophisticated
                   technology does all the hard work, making sure that every
                   customer is 100% satisfied and that every mining goes through
                   smoothly.
@@ -312,7 +312,7 @@ function index() {
             priceRange={"$1,000 - $5.000"}
             minimumAmount={"1,000"}
             dailyProfit={"5.00"}
-            duration={"2 Weeks"}
+            duration={"2 days"}
             minimumReturn={"2,010"}
           />
           <InvestmentPlanCard
@@ -320,7 +320,7 @@ function index() {
             priceRange={"$5,000 - $10,000"}
             minimumAmount={"5,000"}
             dailyProfit={"7.00"}
-            duration={"1 Month"}
+            duration={"2 days"}
             minimumReturn={"5,560"}
           />
           <InvestmentPlanCard
@@ -328,7 +328,7 @@ function index() {
             priceRange={"$10,000 - $15,000"}
             minimumAmount={"10,000"}
             dailyProfit={"9.00"}
-            duration={"3 Months"}
+            duration={"2 days"}
             minimumReturn={"9,200"}
           />
         </SimpleGrid>
