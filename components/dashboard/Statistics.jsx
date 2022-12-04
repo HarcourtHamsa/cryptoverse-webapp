@@ -73,7 +73,7 @@ export default function Statistics() {
   }, []);
 
   return (
-    <Box mx={"auto"} pt={5} mt={6}>
+    <Box mx={"auto"} pt={5} my={6}>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
         {/* <StatsCard
           title={"Deposit"}

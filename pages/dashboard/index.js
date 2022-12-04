@@ -11,7 +11,7 @@ import {
   ForexCrossRates,
   Ticker,
   MarketData,
-  CryptoCurrencyMarket
+  CryptoCurrencyMarket,
 } from "react-ts-tradingview-widgets";
 import helpers from "../../helpers";
 import { AiFillWarning } from "react-icons/ai";
@@ -55,17 +55,26 @@ function Dashboard() {
           <Text color={"gray.400"} fontSize="sm">
             Access to your dashboard
           </Text>
-          <Statistics />
 
           <Container maxW="7xl" mx={"auto"} p={0} my={6}>
-            <Ticker height={400} width="100%" colorTheme="dark"/>
+            <Ticker height={400} width="100%" colorTheme="dark" />
           </Container>
         </div>
         <Container maxW="7xl" mx={"auto"} p={0} my={6}>
-          <Heading fontWeight={'normal'} fontSize="3xl" color={'white'} fontFamily="inherit">Crypto</Heading>
-          <Text mb={5} mt={2} fontSize="sm" color={'gray.400'}>Market cap ranking</Text>
-          <CryptoCurrencyMarket height={400} width="100%" colorTheme="dark"/>
+          <Heading
+            fontWeight={"normal"}
+            fontSize="3xl"
+            color={"white"}
+            fontFamily="inherit"
+          >
+            Crypto
+          </Heading>
+          <Text mb={5} mt={2} fontSize="sm" color={"gray.400"}>
+            Market cap ranking
+          </Text>
+          <CryptoCurrencyMarket height={400} width="100%" colorTheme="dark" />
         </Container>
+        <Statistics />
       </Wrapper>
 
       <CryptoChartTape />
