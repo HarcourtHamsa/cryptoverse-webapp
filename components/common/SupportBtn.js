@@ -21,7 +21,7 @@ function SupportBtn() {
       width={50}
       height={50}
       _hover={{ cursor: "pointer" }}
-      href="mailto:support@zenithpay.network"
+      href="mailto:support@internotchtrade.com"
     >
       <MdChat size={24} />
     </Link>

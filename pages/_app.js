@@ -1,5 +1,6 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import Head from "next/head";
+import Script from "next/script";
 import SupportBtn from "../components/common/SupportBtn";
 import { AuthProvider } from "../context/auth";
 import "../styles/globals.css";
@@ -11,9 +12,13 @@ function MyApp({ Component, pageProps }) {
         <Head>
           <title>internotchtrade</title>
         </Head>
+        <Script
+          src="//code.tidio.co/hahi6fclc5xkmirzfzfjdfbshvbxr3k6.js"
+          async
+        />
         <Component {...pageProps} />
 
-        <SupportBtn />
+        {/* <SupportBtn /> */}
       </AuthProvider>
     </ChakraProvider>
   );
