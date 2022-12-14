@@ -114,14 +114,14 @@ function Invest() {
           />
           <InvestmentPlanCard
             title={"Gold Plan"}
-            priceRange={"$8000 - $1,800"}
-            minimumAmount={"8,000"}
+            priceRange={"$800 - $1,800"}
+            minimumAmount={"800"}
             dailyProfit={"8.65.00"}
             duration={"2 days"}
             minimumReturn={"21,250"}
           />
           <InvestmentPlanCard
-            title={"Gold Plan"}
+            title={"Platinum Plan"}
             priceRange={"$1,800 - $5,000"}
             minimumAmount={"1,800"}
             dailyProfit={"9.78.00"}
