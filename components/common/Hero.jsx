@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import Image from "next/image";
 import { MdPerson } from "react-icons/md";
-import coinImg from "../../assets/images/coin.webp";
+import coinImg from "../../assets/images/coin.png";
 
 export default function Hero() {
   return (

@@ -54,9 +54,11 @@ body {
   animation: bounce 3s ease infinite;
 }
 @media (max-width: 980px) {
-  #coin-animation {
+  #coin-animation img {
     /* background-color: red; */
-    transform: scale(0.4);
+
+    transform: scale(0.5);
+
     /* display: none; */
   }
 }
