@@ -24,6 +24,7 @@ export default function Hero() {
         display={"flex"}
         alignItems={"center"}
         justifyContent="space-around"
+        flexDir={{md: 'row', base: 'column'}}
       >
         <Stack
           as={Box}
@@ -38,7 +39,7 @@ export default function Hero() {
             fontSize={{ base: "xl", sm: "3xl", md: "4xl" }}
             color="white"
           >
-            <Text fontWeight={"normal"}>
+            <Text fontWeight={"normal"} color="orange.500">
               Global Transparent Trading Platform Investing in Gold and Oil
             </Text>
           </Heading>

@@ -27,7 +27,7 @@ export default function Navbar() {
 
   return (
     <>
-      <Box>
+      {/* <Box>
         <Flex
           bg={useColorModeValue("rgb(60, 38, 1)", "gray.800")}
           color={useColorModeValue("white", "white")}
@@ -56,7 +56,7 @@ export default function Navbar() {
             </Link>
           </Center>
         </Flex>
-      </Box>
+      </Box> */}
       <Box>
         <Flex
           bg={useColorModeValue("#181A20", "gray.800")}

@@ -55,8 +55,9 @@ body {
 }
 @media (max-width: 980px) {
   #coin-animation {
-    background-color: red;
-    display: none;
+    /* background-color: red; */
+    transform: scale(0.4);
+    /* display: none; */
   }
 }
 
