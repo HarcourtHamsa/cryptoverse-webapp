@@ -97,13 +97,13 @@ function Register() {
             {/* <Image src={logo} alt="" /> */}
           </Heading>
 
-          <Box w={{ base: "90%", md: "500px" }} m="auto" h="inherit">
+          <Box w={{ base: "90%", md: "500px" }} bg="gray.800" padding={"10"} rounded="md" m="auto" h="inherit">
             <form onSubmit={formik.handleSubmit}>
               <Text
                 textTransform="uppercase"
                 letterSpacing="3px"
                 textAlign="center"
-                color="yellow.500"
+                color="orange.500"
                 mt={5}
               >
                 Create a free account
@@ -239,7 +239,7 @@ function Register() {
                 <Button
                   p={6}
                   rounded={0}
-                  colorScheme={"yellow"}
+                  colorScheme={"orange"}
                   fontWeight="normal"
                   type="submit"
                   isLoading={isLoading}

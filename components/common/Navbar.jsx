@@ -19,7 +19,7 @@ import {
 import Image from "next/image";
 import { CloseIcon, ChevronDownIcon, ChevronRightIcon } from "@chakra-ui/icons";
 import Menu from "./Menu";
-import { ImBasecamp } from "react-icons/im";
+import { ImBasecamp, ImAccessibility, ImDeviantart } from "react-icons/im";
 import Logo from "../../assets/images/logo.svg";
 
 export default function Navbar() {
@@ -42,10 +42,10 @@ export default function Navbar() {
             <Link
               p={1}
               href={"#"}
-              fontSize={".9rem"}
+              fontSize={"xs"}
               fontWeight={500}
-              color={"black"}
-              bg="rgb(252, 213, 53)"
+              color={"white"}
+              bg="orange"
               borderRadius={"3"}
               ml={3}
               _hover={{
@@ -80,7 +80,7 @@ export default function Navbar() {
             />
           </Flex>
           <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
-            <ImBasecamp size={25} />
+            <ImDeviantart size={25} />
 
             <Flex display={{ base: "none", md: "flex" }} ml={10}>
               <DesktopNav />
@@ -112,8 +112,8 @@ export default function Navbar() {
               as={"a"}
               fontWeight={"normal"}
               rounded="4"
-              color={"black"}
-              bg={"rgb(252, 213, 53)"}
+              color={"white"}
+              bg={"orange"}
               href={"/register"}
               _hover={{
                 opacity: 0.8,
@@ -134,7 +134,7 @@ export default function Navbar() {
 
 const DesktopNav = () => {
   const linkColor = useColorModeValue("white", "gray.200");
-  const linkHoverColor = useColorModeValue("rgb(252, 213, 53)", "white");
+  const linkHoverColor = useColorModeValue("orange");
   const popoverContentBgColor = useColorModeValue("white", "gray.800");
 
   return (

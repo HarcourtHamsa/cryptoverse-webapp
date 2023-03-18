@@ -6,10 +6,11 @@ import {
   Button,
   Stack,
   createIcon,
+  Badge,
 } from "@chakra-ui/react";
 import Image from "next/image";
 import { MdPerson } from "react-icons/md";
-import coinImg from "../../assets/images/coin.png";
+import coinImg from "../../assets/images/coin.webp";
 
 export default function Hero() {
   return (
@@ -34,18 +35,18 @@ export default function Hero() {
         >
           <Heading
             // fontWeight={600}
-            fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }}
+            fontSize={{ base: "xl", sm: "3xl", md: "4xl" }}
             color="white"
           >
             <Text fontWeight={"normal"}>
-              Invest, trade, and explore endless possibilities with internotchtrade
+              Global Transparent Trading Platform Investing in Gold and Oil
             </Text>
           </Heading>
           <Text color={"white"} lineHeight={1.8}>
-            internotchtrade is a group of financial and cryptocurrency experts that
-            invest in mining and cryptocurrency trading. We carefully examine
-            the volatility of bitcoin and other crypto currencies, invest and
-            make good profit from our investments.
+            internotchtrade is a group of financial and cryptocurrency experts
+            that invest in mining gold, oil and cryptocurrency trading. We
+            carefully examine the volatility of bitcoin and other crypto
+            currencies, invest and make good profit from our investments.
           </Text>
           <Stack
             direction={"row"}
@@ -55,16 +56,29 @@ export default function Hero() {
             position={"relative"}
           >
             <Button
-              colorScheme={"yellow"}
+              colorScheme={"orange"}
+              as="a"
+              href="/login"
+              size="lg"
+              fontSize="sm"
+              fontWeight="normal"
+              rounded={"full"}
+              px={"10"}
+            >
+              Login
+            </Button>
+            <Button
+              colorScheme={"blackAlpha"}
+              border={"3px"}
               as="a"
               href="/register"
               size="lg"
               fontSize="sm"
               fontWeight="normal"
-              rounded={5}
+              rounded={"full"}
+              px={"10"}
             >
-              <MdPerson size={20} />
-              Sign up with email
+              Register
             </Button>
           </Stack>
         </Stack>

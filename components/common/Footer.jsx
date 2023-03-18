@@ -10,7 +10,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { MdLocationOn } from "react-icons/md";
-import { ImBasecamp } from "react-icons/im";
+import { ImDeviantart } from "react-icons/im";
 import Logo from "../../assets/images/logo.svg";
 
 const ListHeader = ({ children }) => {
@@ -35,7 +35,7 @@ export default function Footer() {
         >
           <Stack spacing={6}>
             <Box>
-              <ImBasecamp size={30} />
+              <ImDeviantart size={30} />
             </Box>
             <Text fontSize={"sm"} display="flex" alignItems="center" gap="2">
               <MdLocationOn size={20} /> 2717 Commervial Center Blvd Ste E200

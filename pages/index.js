@@ -145,7 +145,7 @@ function index() {
               {/* HERE !!! */}
               <Button
                 mt={10}
-                colorScheme={"yellow"}
+                colorScheme={"orange"}
                 as="a"
                 href="/about"
                 size="lg"
