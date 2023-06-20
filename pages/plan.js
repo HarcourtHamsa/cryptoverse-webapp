@@ -80,19 +80,19 @@ function Plan() {
         >
           <InvestmentPlanCard
             title={"Basic Plan"}
-            priceRange={"$250 - $500"}
-            minimumAmount={"250"}
-            dailyProfit={"3.00"}
+            priceRange={"$550 - $1500"}
+            minimumAmount={"550"}
+            dailyProfit={" 5:23"}
             duration={"2 days"}
-            minimumReturn={"670"}
+            minimumReturn={"2,750"}
           />
           <InvestmentPlanCard
             title={"Silver Plan"}
-            priceRange={"$500 - $800"}
-            minimumAmount={"500"}
-            dailyProfit={"7.00"}
+            priceRange={"$1,500 - $5,000"}
+            minimumAmount={"1,500"}
+            dailyProfit={"7:44"}
             duration={"2 days"}
-            minimumReturn={"2,560"}
+            minimumReturn={"7,500"}
           />
           <InvestmentPlanCard
             title={"Gold Plan"}
@@ -104,11 +104,11 @@ function Plan() {
           />
           <InvestmentPlanCard
             title={"Gold Plan"}
-            priceRange={"$1,800 - $5,000"}
-            minimumAmount={"1,800"}
-            dailyProfit={"9.78.00"}
+            priceRange={"15,000 - $45,000"}
+            minimumAmount={"15,000"}
+            dailyProfit={" 10.56"}
             duration={"2 days"}
-            minimumReturn={"37,210"}
+            minimumReturn={"75,000"}
           />
         </SimpleGrid>
       </Container>
