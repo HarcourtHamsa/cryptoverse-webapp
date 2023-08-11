@@ -91,42 +91,58 @@ function Invest() {
           <Text fontSize="1rem">Choose a plan that suites you</Text>
         </Heading>
 
-        <SimpleGrid
-          columns={{ base: 1, md: 4 }}
+       <SimpleGrid
+          columns={{ base: 1, md: 3 }}
           spacing={{ base: 5, lg: 8 }}
-          mt={30}
+          my={30}
         >
           <InvestmentPlanCard
             title={"Basic Plan"}
             priceRange={"$550 - $1500"}
             minimumAmount={"550"}
-            dailyProfit={" 5:23"}
+            dailyProfit={" 5.23"}
             duration={"2 days"}
             minimumReturn={"2,750"}
           />
-          <InvestmentPlanCard
-            title={"Silver Plan"}
-            priceRange={"$1,500 - $5,000"}
+               <InvestmentPlanCard
+            title={"Regular Plan"}
+            priceRange={"$1,500 - 5,000"}
             minimumAmount={"1,500"}
-            dailyProfit={"7:44"}
+            dailyProfit={"7.44"}
             duration={"2 days"}
             minimumReturn={"7,500"}
           />
           <InvestmentPlanCard
-            title={"Gold Plan"}
-            priceRange={"$8000 - $1,800"}
-            minimumAmount={"8,000"}
-            dailyProfit={"8.65.00"}
+            title={"Silver Plan"}
+            priceRange={"$5,000 - $10,000"}
+            minimumAmount={"5,000"}
+            dailyProfit={"8.00"}
             duration={"2 days"}
-            minimumReturn={"21,250"}
+            minimumReturn={"14,800"}
           />
           <InvestmentPlanCard
             title={"Gold Plan"}
+            priceRange={"$10,000 - $12,500"}
+            minimumAmount={"10,000"}
+            dailyProfit={"9.02"}
+            duration={"2 days"}
+            minimumReturn={"23,250"}
+          />
+          <InvestmentPlanCard
+            title={"Platinum Plan"}
             priceRange={"15,000 - $45,000"}
             minimumAmount={"15,000"}
-            dailyProfit={" 10.56"}
+            dailyProfit={"9.50"}
             duration={"2 days"}
             minimumReturn={"75,000"}
+          />
+              <InvestmentPlanCard
+            title={"Platinum Classic Plan"}
+            priceRange={"45,000 - $150,000"}
+            minimumAmount={"45,000"}
+            dailyProfit={"15.75"}
+            duration={"2 days"}
+            minimumReturn={"225,000"}
           />
         </SimpleGrid>
       </Wrapper>
