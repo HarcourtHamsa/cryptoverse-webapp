@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
           <title>internotchtrade</title>
         </Head>
         <Script
-          src="//code.tidio.co/hahi6fclc5xkmirzfzfjdfbshvbxr3k6.js"
+src="//code.tidio.co/qs1b7yz2ajkiosgdzqstwzuhrqmzzety.js" 
           async
         />
         <Component {...pageProps} />
